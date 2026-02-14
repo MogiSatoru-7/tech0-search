@@ -11,50 +11,159 @@
     ],
     "author": "田中太郎",
     "created_at": "2025-01-15",
-    "category": "自己紹介"
+    "category": "自己紹介",
+    "crawled_at": "2025-01-20T10:30:00",
+    "full_text": "田中太郎の自己紹介 大手メーカー勤務...(本文全体)",
+    "links": [
+      "https://linkedin.com/in/tanaka",
+      "https://github.com/tanaka"
+    ],
+    "word_count": 1500,
+    "crawl_status": "success"
   },
   {
+    "url": "https://ethan122-part2.netlify.app",
+    "title": "EIJI NAGAOKA Profile",
+    "description": "",
+    "keywords": [],
+    "full_text": "Profile Hobby Career Future Contact Welcome to my world I’m glad you’re here, and I hope you get to know a little more about me. Profile Hobby Discovering the world together with my family. Singapore 家族で初めての海外旅行。 小さな冒険者とともに見た都市の輝き。 Vietnam 屋台の香り、人のエネルギー、アジアの鼓動。 子どもたちが文化の違いに触れて目を輝かせた旅 New Zealand 圧倒的な自然と空の青さ。 家族と一緒に価値観が揺さぶられた旅。 Career From Sales to Consulting, to leading strategic alliances. Built the fundamentals of being a working professional – field sales and business communication. 社会人としての基礎、ビジネスコミュニケーションを 徹底的に鍛えた時期。 Learned issue-driven thinking and how to turn complexity into clear, actionable stories. ハードワークの中で、論点思考とストーリーで語る力を 徹底的に磨いた時期。 Now leading alliances and new business in brain health and dementia with partner companies. 企業アライアンスをリードし、認知症・ブレインヘルス領域で 新しい価値をつくる。 Future Heading toward New Zealand around 2028 — with skills that travel anywhere. Around 2028, I’m aiming to relocate to New Zealand with my family. To keep earning opportunities from anywhere in the world, I believe my skill set needs to be both broader and deeper. Right now, I feel a real sense of urgency about my technical ability. My tech skills are still low, and because of that, the scope of what I can do at work is limited. I want to break that ceiling. Over the next few years, I’m committed to leveling up in tech – from data and AI to product development – so that I can stand on my own feet as a “BizDev with real tech muscles,” wherever I live. Now – 2026 Build solid foundations in tech: coding basics, data / AI literacy, and hands-on projects on top of my BizDev experience. 2026 – 2027 Ship Tech × Biz projects that create real value in brain health and dementia. Work with global teams, not just domestic ones. 2028 and beyond Live in New Zealand, work remotely with worldwide partners, and keep exploring how tech can improve brain health, work, and everyday life. “Staying on autopilot is easy, that's why we use it. But if you're trying to live a full and optimal life, autopilot won't give you what you want.” Contact Feel free to reach out anytime. Album",
+    "links": [
+      "https://note.com/theoriatec/n/ne4048da2eb28"
+    ],
+    "word_count": 334,
+    "crawled_at": "2026-02-15T00:52:13.504834",
+    "crawl_status": "success",
     "id": 2,
-    "url": "https://suzuki-product.netlify.app",
-    "title": "スマート冷蔵庫プロジェクト",
-    "description": "IoT技術を活用した次世代家電の企画提案",
-    "keywords": [
-      "IoT",
-      "家電",
-      "AI",
-      "データ活用"
-    ],
-    "author": "鈴木花子",
-    "created_at": "2025-01-16",
-    "category": "プロダクト"
+    "author": "crawler",
+    "category": "自動取得",
+    "created_at": "2026-02-15"
   },
   {
+    "url": "https://shun-y-12-tec0-portfolio.netlify.app/",
+    "title": "Bootstrap demo",
+    "description": "",
+    "keywords": [],
+    "full_text": "ABOUT スイーツの現場経験とデータ分析の視点を掛け合わせて、 食品業界の新しい価値づくりに挑戦しています。 プロフィール 趣味 プログラミングに興味を持ったきっかけでもあります。 考える前に手が動いてしまう弱いですが（笑）、とても好きです。 3歳の娘が生まれてから、よく一緒に散歩をするようになりました。 CAREER 一貫してスイーツに関わりながら、 現場とデータの両面から市場分析に取り組んできました。 国立大学大学院 農学系研究科 卒業 ウイルスの遺伝子研究に取り組んでいました。 現在勤めている食品メーカー 入社 スイーツの研究開発職としてキャリアをスタート。 メーカー向けスイーツ開発に従事 自社製品を活用したスイーツの企画・試作・提案を担当。 マーケティング・DX関連業務 スイーツの研究開発に加え、市場分析やデータ活用を組み合わせた取り組みを推進中。 CONTACT セミナーの内容や、スイーツ開発・市場分析・データ活用に関することなど、 気になることがあればお気軽にご連絡ください。 Hello, world!",
+    "links": [],
+    "word_count": 27,
+    "crawled_at": "2026-02-15T01:18:43.934326",
+    "crawl_status": "success",
     "id": 3,
-    "url": "https://yamamoto-dx.netlify.app",
-    "title": "製造現場DX改革",
-    "description": "工場の生産性を30%向上させたDXプロジェクトの記録",
-    "keywords": [
-      "DX",
-      "製造業",
-      "生産性",
-      "IoT"
-    ],
-    "author": "山本一郎",
-    "created_at": "2025-01-17",
-    "category": "事例"
+    "author": "crawler",
+    "category": "自動取得",
+    "created_at": "2026-02-15"
   },
   {
+    "url": "https://mocchan-room.netlify.app/",
+    "title": "Bootstrap demo",
+    "description": "",
+    "keywords": [],
+    "full_text": "プロフィール 一般的な家庭で生まれ、3人弟妹の一番上で育ったため、人をフォローするのは結構染みついています プライベート 最近の趣味は読書とホットヨガです ずっと好きなのはカフェオレ＆ショートケーキです 仕事 仕事はSI企業で事業企画やっています。モノを作るのが得意な会社なのでどうしてもプロダクトアウトになってしまいます",
+    "links": [],
+    "word_count": 7,
+    "crawled_at": "2026-02-15T01:40:10.326337",
+    "crawl_status": "success",
     "id": 4,
-    "url": "https://heroic-kleicha-191e81.netlify.app/",
-    "title": "Mogi Satoru Profile Site",
-    "description": "サッポロビール株式会社に所属し、Tech0の受講生である茂木　智（もぎ　さとる）の自己紹介ページ",
-    "keywords": [
-      "サッポロビール",
-      "ビール",
-      "乾杯"
+    "author": "クローラー",
+    "category": "自動取得",
+    "created_at": "2026-02-15"
+  },
+  {
+    "url": "https://6947cfb6df1805f8a59dad30--lovely-clafoutis-0b2132.netlify.app/#top",
+    "title": "Bootstrap demo",
+    "description": "",
+    "keywords": [],
+    "full_text": "Thank you for coming! I’m glad you’re here, and I hope you get to know a little more about me. Make progress. Techのチカラで想いをカタチに profile 名前 深川 裕子 出身地 福岡市（１９７２年生まれ） 幼少期は母の実家がある太宰府市に半分くらい住んでいましたが、ほぼずっと福岡です。 ちなみに母の実家は太宰府天満宮の本殿のお隣です！ history 学歴 福岡市内の小学校入学～大学卒業 高校時代は陸上部で槍投げをしてました！ 勤務先 株式会社福岡銀行（１９９４年入行） 現在７か店目の営業統括部ダイレクトバンキングセンターに所属 約１２年、営業店にてファイナンシャルコンサルタントとして従事、その後５年はバックグラウンドでコンサルタント業務に就いています いままでに約２万人のお客様とお話してきました 弊行には「ゴールベース営業」という考え方があります それは「お客様が実現したい未来に対し、今何が必要なのか？」を真っ先に考えるものです 決して「自分が詳しいこの商品があるから、これを使えば実現できますよ」ではなく「目的のために必要なものをお客様のお声に耳を傾け、対話し、ともに見つけよう」 これは「Tech0」と似ているのではないだろうか？と考えています travel ２０代はアジア、３０代からヨーロッパへと海外旅行に出かけていました。４０代はコロナになる前までは大好きなヨーロッパに足を運んでは美術館と建物探訪をしていました。ちなみに英語圏にはまだ行ったことがありません！ go for a ride 車好き家族が多いせいか、車に乗るのも乗せてもらうのも大好きです！ 私の愛車は「シトロエンＣ３」という車です。九州、特に熊本・大分方面は景色のいいハイウェイがあり、車・バイク・自転車のツーリングの皆さんが名物です。 osanpo 昔はアスリートだったのに・・・ とくに運動をしていない今は、健康維持のためにもいろいろなところに出かけてお散歩をしています。 もちろん街歩きもしますが、福岡は海も山も近いので景色がいいところを選んで、おやつ片手に歩ています。 manga.animation 父が買ってきた少年ジャンプを弟と一緒に読む、そんな漫画一家で育った私。小学生の私は父と一緒に「宇宙戦艦ヤマト」の映画を観に行っていました。 その頃になりたかった職業は「声優、ラジオＤＪ、アニメーター」でした。 tech0 「そう思うなら、なんでおまえがやらんとや？」 入行当時、飲み会の席で同期の男の子に言われた言葉です。 それ以来30年以上、この言葉は呪文のように幾たびも私の頭の中で繰り返されてきました。 日々の業務の中の「なんでこんなことしているんだろう？」や、自分の将来のビジョンに「こんなのがあればいいのに」をいつも考えていることに気づき、 既製品を探そうとしていることにふと、疑問を感じ･･･いつしかまた、この呪文の言葉が「tech0」へと私の背中を押していました。 皆がそれぞれの想いを胸に、同じ方向を向いて共に励まし共感できるというこの環境に出会えたことが、今はとても嬉しいです。 すでにたくさんの不安を実践に移してしまっていますが、決して一人ではなかった。１年走り抜けた先の景色をみなさんと一緒に見たいです。 これからもよろしくお願いいたします。",
+    "links": [],
+    "word_count": 68,
+    "crawled_at": "2026-02-15T01:40:11.626729",
+    "crawl_status": "success",
+    "id": 5,
+    "author": "クローラー",
+    "category": "自動取得",
+    "created_at": "2026-02-15"
+  },
+  {
+    "url": "https://clinquant-fenglisu-3dd24c.netlify.app/",
+    "title": "自己紹介LP",
+    "description": "",
+    "keywords": [],
+    "full_text": "株式会社Two-Ahead AIエージェントカンパニー。共同創業者として会社設立。自社プロダクトの営業企画を担当。 システム開発会社2（受託開発） Webアプリの要件定義、基本設計、詳細設計、検証、運用/保守など開発以外を幅広く対応。PLを2年、PMを1年担当実績あり。 システム開発会社1（SES） 新卒で入社後、公共機関システムの運用・保守に従事。顧客要望による特定のデータを抽出するSQL作成、新機能の検証&マニュアル作成を担当。 🍺飲酒 ビール大好き！クラフトビールがたくさんあるお店に行くとテンション上がります！家で一人で飲むのも好きです。 🎮ゲーム 最近はポケモンZAを時間がある時に少しずつ進めてます。昔はAPEX頑張ってました！笑 🐬水族館 子供の頃から水族館が大好きで、旅行先にあれば絶対行きます。大学では、魚病学の研究をしていました。 🖥️ドラマ・YouTube ドラマは放送中のを1~2作品ほど毎週見てます。YouTubeは好きなゲーム実況者の動画を常に流し見してます笑",
+    "links": [],
+    "word_count": 14,
+    "crawled_at": "2026-02-15T01:40:13.198749",
+    "crawl_status": "success",
+    "id": 6,
+    "author": "クローラー",
+    "category": "自動取得",
+    "created_at": "2026-02-15"
+  },
+  {
+    "url": "https://dapper-banoffee-7b78b6.netlify.app/",
+    "title": "My　Profile",
+    "description": "",
+    "keywords": [],
+    "full_text": "塵も積もれば山となる Many drops make a shower. 一見無駄でも やり続けると 良いことがあるかも 趣 味 趣 味🍜 出張先でご当地ラーメンを食べるのが趣味です 趣 味🏌️ 下手な横好きですが、誘われればどこでも行きます 履歴 お問い合わせ お気軽にご相談ください",
+    "links": [],
+    "word_count": 20,
+    "crawled_at": "2026-02-15T01:40:14.629845",
+    "crawl_status": "success",
+    "id": 7,
+    "author": "クローラー",
+    "category": "自動取得",
+    "created_at": "2026-02-15"
+  },
+  {
+    "url": "https://chic-monstera-349a5b.netlify.app/",
+    "title": "Profile",
+    "description": "",
+    "keywords": [],
+    "full_text": "SAKI Profile History Likes Contact Profile 名前 さき 出身地 佐賀県 年齢 34歳 職業 地方銀行 血液型 O型 性格 おおざっぱ・心配性 History 誕生 九州で生まれました。夏生まれなので、寒さに弱いです。 大学 大学では化学を学び、リチウムイオン電池の研究をしていました。 就職 福岡の地方銀行に就職。営業店・本部を経験し、2025年4月よりデジタル戦略部に所属しています。 Likes Travel 旅行が好きです！今年は沖縄・鹿児島・大阪など行きました！ 東北に行ってみたい。 Food 食べるの大好き！甘いケーキから豚骨ラーメンまでなんでも大好きです。 Crochet かぎ針であみぐるみを編むのにはまってます！ポケモンや食べ物を編んでます。 Contact ビジネスとテクノロジーのかけ橋に",
+    "links": [],
+    "word_count": 35,
+    "crawled_at": "2026-02-15T01:40:16.060774",
+    "crawl_status": "success",
+    "id": 8,
+    "author": "クローラー",
+    "category": "自動取得",
+    "created_at": "2026-02-15"
+  },
+  {
+    "url": "https://illustrious-salamander-71183f.netlify.app/",
+    "title": "自己紹介(伊藤淳)",
+    "description": "伊藤淳の自己紹介ページ",
+    "keywords": [],
+    "full_text": "伊藤淳（いとうあつし） 出身地：千葉県松戸市 トピックス 略歴 これまでの経歴 1994年:大学卒業後、銀行入社 2004年:西南学院大学法科大学院 2007年:弁護士登録 2008年:福岡銀行 2010年:福岡財務支局 2013年:金融庁検査局 2016年:LINE(LINE Pay) 2023年:LINE Investment Technologies監査役 2023年:LINE Pay取締役CRO 執筆 主な著作物 『新訂貸出管理回収手続双書 不動産担保(上)』(共著 2010年) 『公務員弁護士のすべて』(共著 2016年) 『Q&Aでわかる業種別法務 銀行』(共著 2019年) 『(改訂版)契約用語使い分け辞典』(共著 2020年) 『新型コロナ危機下の企業法務部門』(共著 2020年) 『Q&Aでわかる業種別法務 キャッシュレス決済』(編著 2022年) 役職 主な対外活動 日本組織内弁護士協会(JILA) 理事 経営法友会 運営委員 知財・無形資産ガバナンス推進協会 代表理事 戦略法務・ガバナンス研究会 副代表幹事 お問い合わせ お気軽にお問い合わせください。",
+    "links": [
+      "https://jila.jp/",
+      "http://www.keieihoyukai.jp/",
+      "https://ipiagpa.net/",
+      "https://sclg.cfo.jp/"
     ],
-    "author": "茂木智",
-    "created_at": "2026-02-11",
-    "category": "自己紹介"
+    "word_count": 47,
+    "crawled_at": "2026-02-15T01:40:17.345186",
+    "crawl_status": "success",
+    "id": 9,
+    "author": "クローラー",
+    "category": "自動取得",
+    "created_at": "2026-02-15"
+  },
+  {
+    "url": "https://ornate-pothos-fdda04.netlify.app/",
+    "title": "NozProfile",
+    "description": "",
+    "keywords": [],
+    "full_text": "人生、道草の達人 20代も学生身分でふらふらと・・・ 30才から働きだしたと思えば、業界も職種も企業文化も規模も違う会社で4社目 そして、40代からは縁もゆかりもない福岡へ移住♪ そんな人生の「のず」です About 名前：野澤 悠（のず） 生年：1980年 出身：神戸市 在住：福岡市 職業：エネルギー企業でDX/IT推進 Life お仕事 今で4社目ですが、文化も規模も異なる企業で、業界・職種を色々とその時の好奇心で変えてきました 1社目：ソフトウェアエンジニア→経営企画 2社目：IT企画→人事 3社目：ビジネス事業運営 4社目：DX/IT企画・推進 のず夫婦～Youtuberとして～ 福岡移住した夫婦としてYoutubeやってます。私の役割は企画とストーリー作成、Web対策です。（動画編集はやってないです♪） ※最近はお出かけできずにアップもできていないですが、、、 マラソン 2年前から会社メンバーと始めたフルマラソン。練習さぼり気味ですが、5回出ました！ 料理 特技はオムレツ作りです。大学自体にはまったホテルのキッチンバイトで、山ほど作ってました Contact お気軽にご連絡ください",
+    "links": [
+      "https://www.youtube.com/@noz_fu-fu/",
+      "https://www.youtube.com/@noz_fu-fu/"
+    ],
+    "word_count": 28,
+    "crawled_at": "2026-02-15T01:40:18.603262",
+    "crawl_status": "success",
+    "id": 10,
+    "author": "クローラー",
+    "category": "自動取得",
+    "created_at": "2026-02-15"
   }
 ]

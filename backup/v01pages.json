@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "url": "https://tanaka-intro.netlify.app",
+    "title": "田中太郎の自己紹介",
+    "description": "大手メーカー勤務、DX推進担当として新規事業開発に従事",
+    "keywords": [
+      "DX",
+      "製造業",
+      "新規事業"
+    ],
+    "author": "田中太郎",
+    "created_at": "2025-01-15",
+    "category": "自己紹介"
+  },
+  {
+    "id": 2,
+    "url": "https://suzuki-product.netlify.app",
+    "title": "スマート冷蔵庫プロジェクト",
+    "description": "IoT技術を活用した次世代家電の企画提案",
+    "keywords": [
+      "IoT",
+      "家電",
+      "AI",
+      "データ活用"
+    ],
+    "author": "鈴木花子",
+    "created_at": "2025-01-16",
+    "category": "プロダクト"
+  },
+  {
+    "id": 3,
+    "url": "https://yamamoto-dx.netlify.app",
+    "title": "製造現場DX改革",
+    "description": "工場の生産性を30%向上させたDXプロジェクトの記録",
+    "keywords": [
+      "DX",
+      "製造業",
+      "生産性",
+      "IoT"
+    ],
+    "author": "山本一郎",
+    "created_at": "2025-01-17",
+    "category": "事例"
+  },
+  {
+    "id": 4,
+    "url": "https://heroic-kleicha-191e81.netlify.app/",
+    "title": "Mogi Satoru Profile Site",
+    "description": "サッポロビール株式会社に所属し、Tech0の受講生である茂木　智（もぎ　さとる）の自己紹介ページ",
+    "keywords": [
+      "サッポロビール",
+      "ビール",
+      "乾杯"
+    ],
+    "author": "茂木智",
+    "created_at": "2026-02-11",
+    "category": "自己紹介"
+  }
+]

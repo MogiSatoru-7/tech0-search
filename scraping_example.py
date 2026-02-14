@@ -28,17 +28,24 @@ def scrape_page(url: str) -> dict:
     # meta description
     meta = soup.find("meta", attrs={"name": "description"})
     description = meta.get("content", "") if meta else ""
+    # description = meta["content"] if meta else ""
 
     # 段落テキスト
     paragraphs = soup.find_all("p")
     text = "\n".join(p.get_text().strip() for p in paragraphs)
 
     # リンク一覧
-    links = [
-        a["href"] for a in soup.find_all("a", href=True)
-        if a["href"].startswith("http")
-    ][:10]
-
+    links = []
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if href.startswith("http"):
+            links.append(href)
+    links = links[:10]
+    # links = [
+    #     a["href"] for a in soup.find_all("a", href=True)
+    #     if a["href"].startswith("http")
+    # ][:10]
+    
     return {
         "url": url,
         "title": title,
