@@ -90,42 +90,87 @@ with tab_crawl:
     #クローラータブ：SSLスキップ追加＆ID採番修正
     skip_ssl = st.checkbox("SSL検証をスキップ（検証用）", value=False)
 
+    #session_state対応
+    if "crawl_result" not in st.session_state:
+        st.session_state.crawl_result = None
 
-    if st.button("🤖 クロール実行", type="primary"):
+    if st.button("🤖 クロール実行", type="primary", key="btn_crawl_single"):
         if target_url:
             with st.spinner("クロール中..."):
-                # result = crawl_url(target_url)
-                result = crawl_url(target_url, verify_ssl=not skip_ssl)
+                st.session_state.crawl_result = crawl_url(target_url, verify_ssl=not skip_ssl)
+        else:
+            st.warning("URLを入力してください")
 
-            if result.get("crawl_status") == "success":
-                st.success("✅ クロール成功！")
+    result = st.session_state.crawl_result
 
-                c1, c2 = st.columns(2)
-                c1.metric("📄 タイトル", result["title"][:30] + "...")
-                c1.metric("📊 文字数", f"{result['word_count']}語")
-                c2.metric("🔗 リンク数", f"{len(result.get('links', []))}件")
-                c2.metric("🏷️ キーワード", f"{len(result.get('keywords', []))}個")
+    if result and result.get("crawl_status") == "success":
+        st.success("✅ クロール成功！")
 
-                st.markdown("**📖 本文プレビュー:**")
-                preview = result.get("full_text", "")[:500]
-                st.write(preview + ("..." if len(result.get("full_text", "")) > 500 else ""))
+        c1, c2 = st.columns(2)
+        c1.metric("📄 タイトル", (result["title"][:30] + "...") if len(result["title"]) > 30 else result["title"])
+        c1.metric("📊 文字数", f"{result.get('word_count', 0)}語")
+        c2.metric("🔗 リンク数", f"{len(result.get('links', []))}件")
+        c2.metric("🏷️ キーワード", f"{len(result.get('keywords', []))}個")
 
-                if st.button("💾 インデックスに登録"):
-                    if has_url(pages, result["url"]):
-                        st.warning("同じURLが既に登録されています（スキップしました）")  #if追加
-                    else:
-                        result["id"] = next_id(pages)
-                        # result["id"] = len(pages) + 1
-                        result["author"] = "クローラー"
-                        result["category"] = "自動取得"
-                        result["created_at"] = result["crawled_at"][:10]
-                        pages.append(result)
-                        save_pages(pages)
-                        st.success(f"✅ 「{result['title']}」を登録しました！")
-                        st.cache_data.clear()
-                        st.rerun()
+        st.markdown("**📖 本文プレビュー:**")
+        ft = result.get("full_text", "")
+        st.write(ft[:500] + ("..." if len(ft) > 500 else ""))
+
+        if st.button("💾 インデックスに登録", key="btn_register_single"):
+            if has_url(pages, result["url"]):
+                st.warning("同じURLが既に登録されています（スキップしました）")
             else:
-                st.error(f"❌ クロール失敗: {result.get('error', 'Unknown')}")
+                r = result.copy()
+                r["id"] = next_id(pages)
+                r["author"] = "クローラー"
+                r["category"] = "自動取得"
+                r["created_at"] = r["crawled_at"][:10]
+                pages.append(r)
+                save_pages(pages)
+                st.success(f"✅ 「{r['title']}」を登録しました！")
+                st.cache_data.clear()
+                st.session_state.crawl_result = None
+                st.rerun()
+
+    elif result and result.get("crawl_status") != "success":
+        st.error(f"❌ クロール失敗: {result.get('error', 'Unknown')}")
+
+    #session_state前
+    # if st.button("🤖 クロール実行", type="primary", key="btn_crawl_single"):
+    #     if target_url:
+    #         with st.spinner("クロール中..."):
+    #             # result = crawl_url(target_url)
+    #             result = crawl_url(target_url, verify_ssl=not skip_ssl)
+
+    #         if result.get("crawl_status") == "success":
+    #             st.success("✅ クロール成功！")
+
+    #             c1, c2 = st.columns(2)
+    #             c1.metric("📄 タイトル", result["title"][:30] + "...")
+    #             c1.metric("📊 文字数", f"{result['word_count']}語")
+    #             c2.metric("🔗 リンク数", f"{len(result.get('links', []))}件")
+    #             c2.metric("🏷️ キーワード", f"{len(result.get('keywords', []))}個")
+
+    #             st.markdown("**📖 本文プレビュー:**")
+    #             preview = result.get("full_text", "")[:500]
+    #             st.write(preview + ("..." if len(result.get("full_text", "")) > 500 else ""))
+
+    #             if st.button("💾 インデックスに登録"):
+    #                 if has_url(pages, result["url"]):
+    #                     st.warning("同じURLが既に登録されています（スキップしました）")  #if追加
+    #                 else:
+    #                     result["id"] = next_id(pages)
+    #                     # result["id"] = len(pages) + 1
+    #                     result["author"] = "クローラー"
+    #                     result["category"] = "自動取得"
+    #                     result["created_at"] = result["crawled_at"][:10]
+    #                     pages.append(result)
+    #                     save_pages(pages)
+    #                     st.success(f"✅ 「{result['title']}」を登録しました！")
+    #                     st.cache_data.clear()
+    #                     st.rerun()
+    #         else:
+    #             st.error(f"❌ クロール失敗: {result.get('error', 'Unknown')}")
 
     # ── 一括クロール ──
     st.divider()
